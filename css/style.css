@@ -4,16 +4,11 @@
 }
 
 body{
-    width: 100%;
-    height: 100%;
+    
     background-color: darkgreen
     
 }
 
-.game-container{
-    display: flex;
-    
-}
 
 .container{
     display: flex;               
@@ -26,6 +21,7 @@ body{
 .minicontainer{
     border: 2px solid black;
     padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
     
 }
 form{
@@ -39,18 +35,25 @@ input{
     border-radius: 10px;
     font-size: 20px;
     text-align: center;
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
 button{
     border-radius: 4px;
     font-size: 20px;
+    
 
 }
 p{
     border: 1px solid black;
+    
     font-size: 30px;
     font-family: bold;
     color: goldenrod;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 button:hover{
@@ -60,6 +63,6 @@ button:hover{
 }
 
 h1{
-    text-align: center;
+    text-align: start;
     
 }

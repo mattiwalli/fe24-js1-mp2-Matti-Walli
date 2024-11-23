@@ -33,7 +33,7 @@ function startbutton() {
   const randomsix = 1 + Math.floor(Math.random() * 6);
   console.log(randomsix);
 
-  pEl.innerText = `Tärnings Nummer: ${randomsix}`;
+  pEl.innerText = `Tärnings nummer: ${randomsix}`;
 
   if (randomsix === 1) {
     rundanpoäng = 0;
@@ -54,13 +54,13 @@ stoppabtn.addEventListener("click", stoppabutton);
 function stoppabutton() {
   if (stoppabtn) {
     allpoäng += rundanpoäng;
-    pEl4.innerHTML = `Totala Poäng: ${allpoäng}`;
+    pEl4.innerHTML = `Totala poäng: ${allpoäng}`;
     omgångar++;
     pEl3.innerText = `Spelade omgångar: ${omgångar}`;
     rundanpoäng = 0;
     pEl2.innerText = `Rundans poäng: ${rundanpoäng}`;
     randomsix = 0;
-    pEl.innerText = `Tärnings Nummer: ${randomsix}`;
+    pEl.innerText = `Tärnings nummer: ${randomsix}`;
   }
 
   if (allpoäng >= 100) {
